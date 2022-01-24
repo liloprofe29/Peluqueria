@@ -72,7 +72,7 @@ public class Servicio {
     }
     
     public String mostrarServicio(){
-        return "Cliente: " + nomCliente + "\nServicio: " + servicio+
+        return "Nombre Cliente: " + nomCliente + "\nServicio: " + servicio+
                 "\ncosto: " + costo;
         
     }

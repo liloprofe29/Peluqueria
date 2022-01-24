@@ -18,7 +18,7 @@ public class PryPeluqueria {
      */
     public static void main(String[] args) {
         String nomPersona = JOptionPane.showInputDialog("Ingrese su nombre: ");
-        String servicio = JOptionPane.showInputDialog("Ingrese servicio solicitado: ");
+        String servicio = JOptionPane.showInputDialog("Ingrese el tipo de servicio solicitado: ");
         Servicio serv1 = new Servicio(nomPersona, servicio);
         //Método que valida costo
         serv1.validarCostoServicio();
