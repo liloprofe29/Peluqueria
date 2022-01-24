@@ -65,6 +65,8 @@ public class Servicio {
                          break;
            case "keratina": cost = 120000;
                           break;
+           case "peinado": cost = 45000;
+                          break;               
            default: cost = -1;
            
     }
